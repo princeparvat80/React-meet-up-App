@@ -7,19 +7,20 @@ import NewmeetupsPage from './pages/Newmeetups'
 function App () {
   return (
     <div>
+      <MainNavigation />
       <Switch>
-        <MainNavigation />
-        <Route path='/' exact>
-          <AllmeetupsPages />
-        </Route>
+          <Route path='/' exact>
+            <AllmeetupsPages />
+          </Route>
 
-        <Route path='/favorites'>
-          <FavoritesPage />
-        </Route>
+          <Route path='/favorites'>
+            <FavoritesPage />
+          </Route>
 
-        <Route path='/new-meet-up'>
-          <NewmeetupsPage />
-        </Route>
+          <Route path='/new-meet-up'>
+            <NewmeetupsPage />
+          </Route>
+
       </Switch>
     </div>
   )
