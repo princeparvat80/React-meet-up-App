@@ -1,10 +1,10 @@
 import React from 'react'
+import NewMeetupForm from '../Components/meetups/NewMeetupForm'
 
 function NewmeetupsPage() {
-    console.log("pahuch gya")
     return (
         <div>
-            <p>Prince</p>
+           <NewMeetupForm />
         </div>
     )
 }
