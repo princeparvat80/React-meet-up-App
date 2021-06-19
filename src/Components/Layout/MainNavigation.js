@@ -11,11 +11,11 @@ function MainNavigation () {
             <Link to='/'> All Meetups </Link>
           </li>
           <li>
-            <Link to='/favorites'>Favorites</Link>
+            <Link to='/new-meet-up'>Add Meetups</Link>
           </li>
           <li>
-            <Link to='/new-meet-up'>New Meetups</Link>
-          </li>
+            <Link to='/favorites'>My Favorites</Link>
+          </li> 
         </ul>
         </nav>
     </header>
